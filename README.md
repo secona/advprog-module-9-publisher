@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b4a25ecf-6f75-41c3-8922-5b7548575bff)> How much data your publisher program will send to the message broker in one run?
+> How much data your publisher program will send to the message broker in one run?
 
 The program will send five messages of `UserCreatedEventMessage`. Each message contains two fields: a `user_id` and a `user_name`, both of which are `String` values.
 
