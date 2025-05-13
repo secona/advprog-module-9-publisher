@@ -13,3 +13,5 @@ This means that we are connecting to the same RabbitMQ server as the subscriber.
   - `5672` is the default port used by RabbitMQ connections
 
 This setup allows both publisher and subscriber to communicate via the same broker, enabling event-driven architecture.
+
+![image](https://github.com/user-attachments/assets/b905a048-d058-4381-94fc-2dcb063933b8)
