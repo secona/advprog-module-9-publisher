@@ -1,4 +1,4 @@
-> How much data your publisher program will send to the message broker in one run?
+![image](https://github.com/user-attachments/assets/b4a25ecf-6f75-41c3-8922-5b7548575bff)> How much data your publisher program will send to the message broker in one run?
 
 The program will send five messages of `UserCreatedEventMessage`. Each message contains two fields: a `user_id` and a `user_name`, both of which are `String` values.
 
@@ -14,4 +14,10 @@ This means that we are connecting to the same RabbitMQ server as the subscriber.
 
 This setup allows both publisher and subscriber to communicate via the same broker, enabling event-driven architecture.
 
+#### Running RabbitMQ as Message Broker
+
 ![image](https://github.com/user-attachments/assets/b905a048-d058-4381-94fc-2dcb063933b8)
+
+#### Monitoring Chart Based on Publisher
+
+![image](https://github.com/user-attachments/assets/ff53c550-63ba-4b56-a4c3-196165e091b2)
